@@ -20,10 +20,10 @@ CDC Boost-Service reduces this complexity by:
 The journey is prepared and ready to execute:
 
 ### 1. Pre-Flight
-Customers answer a **short questionnaire** and run a **SQL script**.  
+Customers answer a [**short questionnaire**](pre-flight/Confluent-Oracle-XStream-CDC-Connector-status-check-questionnaire-v.1.2.pdf) and run a [**SQL script**](pre-flight/Confluent_CDCXStream_info_gathering.sql).  
 This gives Confluent the details needed about the Oracle environment (e.g., DB version, privileges, redo log setup, replication capabilities).
 
-**Outcome:** Clear overview of Oracle requirements.
+**Outcome:** Clear overview of your Oracle requirements. Kindly forward your responses to your account team.
 
 ### 2. In-Flight
 Confluent prepares a **detailed evaluation** based on the Pre-Flight data.  
