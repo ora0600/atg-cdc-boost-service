@@ -28,11 +28,11 @@ This gives Confluent the details needed about the Oracle environment (e.g., DB v
 ### 2. In-Flight
 Confluent prepares a [**detailed evaluation**](in-flight/Confluent-Oracle-XStream-CDC-Connector-status-check-questionnaire-evaluation%20sheet-v.1.2.pdf) based on the Pre-Flight data.  
 This includes:
-- Scripting for environment checks for [NON-CDB](in-flight/non-cdb-deployment.sql) and [CDB](in-flight/cdb-deployment.sql) environment
-- Compatibility validation
+- Compatibility validation and requirement checks
+- Deployment Scripting for the database: [NON-CDB](in-flight/non-cdb-deployment.sql) and [CDB](in-flight/cdb-deployment.sql) environment
 - Identifying required configuration changes, like this [sample](in-flight/01_setup_database.sql).
 
-**Outcome:** A ready-to-use evaluation package that simplifies the customer’s preparation.
+**Outcome:** A ready-to-use evaluation and a deployment package for the database that simplifies the customer’s preparation.
 
 ### 3. Landing Flight
 With all requirements known, Confluent provides **deployment guidance** for the Oracle XStream CDC Source Connector:
