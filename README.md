@@ -44,6 +44,7 @@ With all requirements known, Confluent provides **deployment guidance** for the 
 - Sizing and resource planning
 - Database change requirements
 - Monitoring recommendations and scripts
+- A prepared very common POC Plan, with Step-by-Step Guide for very common test customers did so far.
 
 **Outcome:** A smooth “landing” with a tailored CDC solution aligned to customer needs.
 
