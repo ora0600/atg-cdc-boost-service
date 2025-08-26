@@ -37,11 +37,13 @@ This includes:
 ### 3. Landing Flight
 With all requirements known, Confluent provides **deployment guidance** for the Oracle XStream CDC Source Connector:
 - CDC solution design
-- Structure redesign with SMT, or capturing changes from the beginning, or Transation via Flink SQL etc.
+- CDC Connector Deployment, configuration [sample](landing-flight/cdc_ccloud.json.template)
+- Structure redesign with [SMT](landing-flight/cdc_ccloud_smt.json.template), or capturing changes from the beginning, or Transformation via Flink SQL etc.
 - Table flow recommendations if required
 - Sizing and resource planning
 - Database change requirements
-- Monitoring recommendations and scripts
+- Monitoring recommendations and scripts, see [all scripts](landing-flight/monitoring)
+- Operation and Maintenance summary [slide deck](landing-flight/Deep-Dive-Operations_Oracle-XStream-CDC-Connector-Maintenace-and-Operation-from-Confluent-ATG-Customer-facing.pdf) including best practices
 - A prepared very common POC Plan, with Step-by-Step Guide for very common test customers did so far.
 
 **Outcome:** A smooth “landing” with a tailored CDC solution aligned to customer needs.
