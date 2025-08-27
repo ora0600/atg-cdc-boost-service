@@ -44,7 +44,7 @@ With all requirements known, Confluent provides **deployment guidance** for the 
 - Database change requirements
 - Monitoring recommendations and scripts, see [all scripts](landing-flight/monitoring)
 - Operation and Maintenance summary [slide deck](landing-flight/Deep-Dive-Operations_Oracle-XStream-CDC-Connector-Maintenace-and-Operation-from-Confluent-ATG-Customer-facing.pdf) including best practices
-- A prepared very common POC Plan, with Step-by-Step Guide for very common test customers did so far.
+- A prepared [very common POC Plan](landing-flight/generic_poc_plan.md), with Step-by-Step Guide for very common test customers did so far.
 
 **Outcome:** A smooth “landing” with a tailored CDC solution aligned to customer needs.
 
@@ -64,3 +64,4 @@ Connect with your Account Executive from Confluent. This service is free of char
 - Access to Oracle Enterprise Edition DB
 - Confluent Platform / Confluent Cloud
 - Permissions to run SQL scripts against the Oracle database
+
