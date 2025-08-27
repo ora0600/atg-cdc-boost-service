@@ -43,7 +43,7 @@ With all requirements known, Confluent provides **deployment guidance** for the 
 - Sizing and resource planning
 - Database change requirements
 - Monitoring recommendations and scripts, see [all scripts](landing-flight/monitoring)
-- Operation and Maintenance summary [slide deck](landing-flight/Deep-Dive-Operations_Oracle-XStream-CDC-Connector-Maintenace-and-Operation-from-Confluent-ATG-Customer-facing.pdf) including best practices
+- Operation and Maintenance summary slide deckincluding best practices, please ask your SE to get copy
 - A prepared [very common POC Plan](landing-flight/generic_poc_plan.md), with Step-by-Step Guide for very common test customers did so far.
 
 **Outcome:** A smooth “landing” with a tailored CDC solution aligned to customer needs.
