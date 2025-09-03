@@ -5,7 +5,7 @@ Following tests are covered here:
 2. [Initial Load only](#2-initial-load-only): This special use case is to show that only read-only should be transfered to Kafka and a workaround for Ad-hoc Snapshots
 3. [DML changes](#3-dml-changes): After creation and initial load make changes to the table (DML operations) and validate if those changes reflect in the topic.
 4. [Add multiple tables](#4-add-multiple-tables): Evaluate, if we can add multiple tables in single connector
-5. [Add multiple tables with diffrent owner](#5-add-multiple-tables-with-different-owner): Evaluate, if we can add multiple tables with different owner’s in the single connector
+5. [Add multiple tables with different owner](#5-add-multiple-tables-with-different-owner): Evaluate, if we can add multiple tables with different owner’s in the single connector
 6. [one capture serves two outbound servers](#6-one-capture-serves-two-outbound-servers): Include multiple tables for capture whether multiple capture process/xstream outbound servers are required.
 7. [Pause and stop capture and xstream outbound server](#7-pause-and-stop-capture-and-xstream-outbound-server)
 8. [Switch redo logs](#8-switch-redo-logs): Switching the redo log will generate archive logs; then resume or start the capture/XStream server to verify whether it continues from the archives.
